@@ -1,0 +1,5 @@
+/data
+/output
+/bert-finetuned-sdg-english
+/bert-finetuned-lora-sdg-english
+.DS_Store
