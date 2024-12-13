@@ -178,7 +178,7 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer, return_tensors="pt"
 
 
 args = TrainingArguments(
-    output_dir='bert-finetuned-lora-sdg-english',
+    output_dir='bert-finetuned-sdg-english',
     evaluation_strategy = "epoch",
     save_strategy = "epoch",
     learning_rate=2e-5,

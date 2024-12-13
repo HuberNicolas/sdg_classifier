@@ -77,7 +77,7 @@ metric_name = "f1"
 
 
 args = TrainingArguments(
-    f"bert-finetuned-sdg-english",
+    f"bert-finetuned-lore-sdg-english",
     evaluation_strategy = "epoch",
     save_strategy = "epoch",
     learning_rate=2e-5,
